@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="790E584A-9298-B8FD-79A0-50E0C23A133C" name="PhoneNumber">
+<createdBy>NUser</createdBy>
+<createdTime>2015-04-06 16:18:13 UTC</createdTime>
+<ownerDesignName>hg</ownerDesignName>
+<engineerTo>
+<item key="12824BF4-16D7-6A05-9DBB-C18289FB3308" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="user_id" id="2DED19ED-295A-DD8B-D61C-AD97BDFC2690">
+<createdBy>NUser</createdBy>
+<createdTime>2015-04-06 16:18:30 UTC</createdTime>
+<ownerDesignName>hg</ownerDesignName>
+<engineerTo>
+<item key="12824BF4-16D7-6A05-9DBB-C18289FB3308" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Attribute>
+<Attribute name="Phone" id="8977E4BE-BD94-680F-A94E-D834DEC257A9">
+<createdBy>NUser</createdBy>
+<createdTime>2015-04-06 16:18:45 UTC</createdTime>
+<ownerDesignName>hg</ownerDesignName>
+<engineerTo>
+<item key="12824BF4-16D7-6A05-9DBB-C18289FB3308" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+</Attribute>
+</attributes>
+</Entity>

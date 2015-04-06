@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63ECB3DE-CE15-1240-0BF2-53E537FC74E3" name="TELNUMBER">
+<createdBy>NUser</createdBy>
+<createdTime>2015-04-06 16:10:39 UTC</createdTime>
+<ownerDesignName>hg</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="85F8666A-C6D0-07D4-1791-02D9FD671197">
+<createdBy>NUser</createdBy>
+<createdTime>2015-04-06 16:13:52 UTC</createdTime>
+<ownerDesignName>hg</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>632AC0AA-C89B-6989-2693-8DA09C497380</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_TELNUMBER_user_id</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="642D3DCC-BDC4-E93B-AC93-7B6DA6DFF513" referredColumn="632AC0AA-C89B-6989-2693-8DA09C497380"/>
+</associations>
+</Column>
+<Column name="Phone" id="B394D339-1FD8-8631-735B-DE465DB0F448">
+<createdBy>NUser</createdBy>
+<createdTime>2015-04-06 16:13:52 UTC</createdTime>
+<ownerDesignName>hg</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_TELNUMBER_Phone</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AB548CF-2BC0-3F64-FE57-91E51745053B" name="TELNUMBER_PK">
+<createdBy>NUser</createdBy>
+<createdTime>2015-04-06 16:13:52 UTC</createdTime>
+<ownerDesignName>hg</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85F8666A-C6D0-07D4-1791-02D9FD671197"/>
+<colUsage columnID="B394D339-1FD8-8631-735B-DE465DB0F448"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94DCA754-A4FD-7ECC-CE0B-C3456E0F0A0B" name="TELNUMBER_TABLE_1_FK">
+<createdBy>NUser</createdBy>
+<createdTime>2015-04-06 16:13:52 UTC</createdTime>
+<ownerDesignName>hg</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85F8666A-C6D0-07D4-1791-02D9FD671197"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
